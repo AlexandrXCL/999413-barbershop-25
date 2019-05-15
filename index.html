@@ -2,11 +2,94 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>Барбершоп</title>
   </head>
   <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+          <a class="main-header-logo">
+            <img src="http://placehold.it/180x100" width="180" height="100" alt="Логотип барбершопа">
+          </a>
+          <ul class="site-navigation">
+            <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
+            <li><a href="news.html">НОВОСТИ</a></li>
+            <li><a href="price.html">ПРАЙС-ЛИСТ</a></li>
+            <li><a href="catalog.html">МАГАЗИН</a></li>
+            <li><a href="contacts.html">КОНТАКТЫ</a></li>
+          </ul>
+          <ul class="user-navigation">
+            <li class="login-link"><a href="#">Вход</a></li>
+          </ul>
+      </nav>
+      <main class="conatiner">
+            <h1>БАРБЕРШОП «БОРОДИНСКИЙ» </h1>
+          <section class= "feauters">
+            <h3>Преимущества</h3>
+            <ul class="feauters-list">
+              <li class="feauters-item">БЫСТРО</li>
+                  <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ  ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+              <li class="feauters-item">КРУТО</li>
+                  <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+                  МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+                  ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+</p>
+              <li class="feauters-item">ДОРОГО</li>
+                  <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС? </p>
+            </ul>
+          </section>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+          <section class="news">
+            <h2>НОВОСТИ</h2>
+            <ul class="new-list">
+              <li class"news-item"><p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ<p>
+              </li>
+              <time datetime="2019-11-01"> 11 января</time>
+              <li class"news-item">
+                <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                <time datetime="2019-18-01">18 января</time>
+              </li>
+            </ul>
+            <a class="button" href="news.html">ВСЕ НОВОСТИ</a>
+          </section>
+          <section class="gallery">
+            <h2>ФОТОГАЛЕРЯ</H2>
+              <figure class="gallery-content">
+                <a href="#"><img src="http://placehold.it/180x120" alt="ИНТЕРЬЕР"></a>
+              </figure>
+            <span class="button gallery-button gallery-button-back">НАЗАД
+            </span>
+            <span class="button gallery-button gallery-button-next">ВПЕРЕД
+            </span>
+          </section>
+          <section class="contacts">
+            <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+            <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+              АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+              ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            <p>ВРЕМЯ РАБОТЫ:<br>
+              ПН—ПТ: С 10:00 ДО 22:00<br>
+              СБ—ВС: С 10:00 ДО 19:00</p>
+            <a class="button" href="map.html">КАК ПРОЕХАТЬ</a>
+            <a class="button" href="feedback.html">ОБРАТНАЯ СВЯЗЬ</a>
+          </section>
+            <!-- Форма записи -->
+          <footer>
+              <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+                <a href="map.html">КАК НАС НАЙТИ?</a><br>
+                ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            <div class="footer-social">
+              <b>ДАВАЙТЕ ДРУЖИТЬ!</b>
+              <ul>
+                <li><a class="social-button" href="#">Вконтакте</a></li>
+                <li><a class="social-button" href="#">Фейсбук</a></li>
+                <li><a class="social-button" href="#">Инстаграм</a></li>
+              <p class="footer-copirighted">
+                <b>Разработано</b>
+                <a class="button" href="https://htmlacademy.ru"> HTML academy</a>
+              </p>
+              </footer>
+      </main>
+    </header>
   </body>
 </html>
