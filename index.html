@@ -8,7 +8,7 @@
     <header class="main-header">
       <nav class="main-navigation">
           <a class="main-header-logo">
-            <img src="img/index-logo.svg" width="2560px" height="1756px" alt="Логотип барбершопа">
+            <img src="img/index-logo.svg" width="368px" height="153px" alt="Логотип барбершопа">
           </a>
           <ul class="site-navigation">
             <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
@@ -18,7 +18,7 @@
             <li><a href="contacts.html">КОНТАКТЫ</a></li>
           </ul>
           <ul class="user-navigation">
-            <li class="login-link"><a href="#">Вход</a></li>
+            <li><a class="login-link" href="login.html">Вход</a></li>
           </ul>
       </nav>
       <main class="conatiner">
@@ -56,10 +56,10 @@
               <figure class="gallery-content">
                 <a href="#"><img src="/img/gallery-1.jpg" width="286px" height="184px" alt="ИНТЕРЬЕР"></a>
               </figure>
-            <span class="button gallery-button gallery-button-back">НАЗАД
-            </span>
-            <span class="button gallery-button gallery-button-next">ВПЕРЕД
-            </span>
+            <button class="button gallery-button gallery-button-back" type="button">НАЗАД
+            </button>
+            <button class="button gallery-button gallery-button-next" type="button">ВПЕРЕД
+            </button>
           </section>
           <section class="contacts">
             <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
@@ -72,7 +72,40 @@
             <a class="button" href="map.html">КАК ПРОЕХАТЬ</a>
             <a class="button" href="feedback.html">ОБРАТНАЯ СВЯЗЬ</a>
           </section>
-            <!-- Форма записи -->
+          <section class="appointment">
+            <h2>Записаться</h2>
+              <p class="appointment-info">
+                УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ<br>С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+              </p>
+              <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
+              <p class="appointment-item"><label for="ippointment-date">Дата</label><input id="ippointment-date" type="text" name="date" placeholder="27.05.2019"></p>
+              <p class="appointment-item"><label for="ippointment-time">Время</label><input id="ippointment-time" type="text" name="time" placeholder="10:00"></p>
+              <p class="appointment-item"><label for="ippointment-name">Ваше имя</label><input id="ippointment-name" type="text" name="name" placeholder="Борода"></p>
+              <p class="appointment-item"><label for="ippointment-phone">Телефон</label><input id="ippointment-phone" type="text" name="tel" placeholder="+7 123 789-45-56"></p>
+              <button class="button" type="submit">Отправить</button>
+          </section>
+          <section class="modal modal-login">
+              <h2>Личный кабинет</h2>
+              <p>Введите свой логин и пароль</p>
+              <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+              <p><label class="login-user">Логин<input class="login=icon-user" type="text" name="login" placeholder="Логин"></label></p>
+              <p><label class="login-password">Пароль<input class="login-icon-password" type="password" name="password" placeholder="Пароль"></label></p>
+              <p><label class="login-checkbox"><input class="login-password-info" type="checkbox">Запомните меня</label>
+              <a class="restore" href="#">Я зыбал пароль!</a></p>
+              <button class="button" type="submit">Войти</button>
+              <button class="modal-close" type button>Заркыть</button>
+          </section>
+          <section class="modal modal-map">
+            <h2 class="visually-hidden">
+              Как до нас добраться
+            </h2>
+            <p>
+              <img src="/img/map.jpg" width="780" height="560" alt="Офис компании по адресу Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8">
+            </p>
+            <button class="modal-close" type="button">
+              Закрыть
+            </button>
+          </section>
           <footer>
               <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
                 АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
