@@ -25,22 +25,27 @@
           </ul>
       </nav>
       <main class="conatiner">
-            <h1>БАРБЕРШОП «БОРОДИНСКИЙ» </h1>
+            <h1 class="visually-hidden">БАРБЕРШОП «БОРОДИНСКИЙ» </h1>
           <section class= "feauters">
-            <h3>Преимущества</h3>
+            <h3 class="visually-hidden">Преимущества</h3>
             <ul class="feauters-list">
-              <li class="feauters-item">БЫСТРО</li>
-                  <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ  ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
-              <li class="feauters-item">КРУТО</li>
-                  <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+              <li class="feauters-item">
+                <h3>БЫСТРО</h3>
+                  МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ  ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+              </li>
+              <li class="feauters-item">
+                <h3>КРУТО</h3>
+                  ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
                   МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
                   ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
-                <!-- </p> -->
-              <li class="feauters-item">ДОРОГО</li>
-                  <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС? </p>
+              </li>
+              <li class="feauters-item">
+                <h3>ДОРОГО</h3>
+                  НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+              </li>
             </ul>
           </section>
-
+          <div class="index-columns">
           <section class="news">
             <h2>НОВОСТИ</h2>
             <ul class="new-list">
@@ -56,7 +61,7 @@
           </section>
           <section class="gallery">
             <h2>ФОТОГАЛЕРЯ</H2>
-              <figure class="gallery-content">
+                <figure class="gallery-content">
                 <a href="#"><img src="img/gallery-1.jpg" width="288px" height="168px" alt="ИНТЕРЬЕР"></a>
               </figure>
             <button class="button gallery-button gallery-button-back" type="button">НАЗАД
@@ -64,6 +69,9 @@
             <button class="button gallery-button gallery-button-next" type="button">ВПЕРЕД
             </button>
           </section>
+        </div>
+
+        <div class="index-columns">
           <section class="contacts">
             <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
             <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
@@ -85,15 +93,19 @@
               <p class="appointment-item"><label for="ippointment-time">Время</label><input id="ippointment-time" type="text" name="time" placeholder="10:00"></p>
               <p class="appointment-item"><label for="ippointment-name">Ваше имя</label><input id="ippointment-name" type="text" name="name" placeholder="Борода"></p>
               <p class="appointment-item"><label for="ippointment-phone">Телефон</label><input id="ippointment-phone" type="text" name="tel" placeholder="+7 123 789-45-56"></p>
+              </form>
               <button class="button" type="submit">Отправить</button>
           </section>
+        </div>
           <section class="modal modal-login">
               <h2>Личный кабинет</h2>
               <p>Введите свой логин и пароль</p>
               <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
-              <p><label class="login-user">Логин<input class="login=icon-user" type="text" name="login" placeholder="Логин"></label></p>
+              <p><label class="login-user">Логин<input class="login-icon-user" type="text" name="login" placeholder="Логин"></label></p>
               <p><label class="login-password">Пароль<input class="login-icon-password" type="password" name="password" placeholder="Пароль"></label></p>
-              <p><label class="login-checkbox"><input class="login-password-info" type="checkbox">Запомните меня</label>
+              <p><label class="login-checkbox">
+              </form>
+              <input class="login-password-info" type="checkbox">Запомните меня</label>
               <a class="restore" href="#">Я зыбал пароль!</a></p>
               <button class="button" type="submit">Войти</button>
               <button class="modal-close" type button>Заркыть</button>
@@ -109,17 +121,21 @@
               Закрыть
             </button>
           </section>
-          <footer>
+          <footer class="main-footer">
+            <div class="footer-contacts">
               <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
                 АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
                 <a href="map.html">КАК НАС НАЙТИ?</a><br>
                 ТЕЛЕФОН: +7 (495) 666-02-66</p>
+            </div>
             <div class="footer-social">
               <b>ДАВАЙТЕ ДРУЖИТЬ!</b>
               <ul>
                 <li><a class="social-button" href="#">Вконтакте</a></li>
                 <li><a class="social-button" href="#">Фейсбук</a></li>
                 <li><a class="social-button" href="#">Инстаграм</a></li>
+              </ul>
+            </div>
               <p class="footer-copirighted">
                 <b>Разработано</b>
                 <a class="button" href="https://htmlacademy.ru"> HTML academy</a>
